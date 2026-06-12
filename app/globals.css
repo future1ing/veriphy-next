@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0f0e;
+  --sf: #111815;
+  --sf2: #182219;
+  --sf3: #1f2d22;
+  --bd: #2a3d2d;
+  --ac: #4ade80;
+  --acd: rgba(74,222,128,0.12);
+  --red: #f87171;
+  --redd: rgba(248,113,113,0.12);
+  --ora: #fb923c;
+  --orad: rgba(251,146,60,0.12);
+  --blu: #60a5fa;
+  --blud: rgba(96,165,250,0.1);
+  --tx: #e8f0e9;
+  --tx2: #8fa890;
+  --tx3: #5a7060;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--tx); }
+h1, h2, h3, h4 { font-family: 'Syne', sans-serif; }
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-thumb { background: var(--bd); border-radius: 10px; }
+
+@layer utilities {
+  .font-display { font-family: 'Syne', sans-serif; }
+}
